@@ -111,7 +111,7 @@ RULES:
 - Use null for missing fields (never "N/A", "", "-")
 - Preserve original number formats (e.g., 4.013.082,09)
 - invoice_currency: primary transaction currency (EUR if items in EUR)
-- invoice_total_amount: include currency (e.g., "4.013.082,09 TL")
+- invoice_total_amount: get from invoice total line (not sum of items) with invoice currency
 - Countries as source (ALMANYA, TÜRKİYE)
 - Weights: numeric kg string, no unit (e.g., "19050")
 
