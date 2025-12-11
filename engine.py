@@ -117,6 +117,9 @@ RULES:
 
 COMMODITY CODE (invoice_item_commodity_code):
 - Labels: Esya Kodu, Gtip Kodu, GTIP, HS CODE, HS Kodu, Malzeme/Hizmet Kodu, Ürün Kodu
+- IMPORTANT: GTIP/HS codes often span TWO LINES in table cells. Combine them into one code.
+  Examples: "940340" + "900000" → "940340900000", "441829" + "800019" → "441829800019"
+- Check each table cell carefully for multi-line codes
 - Priority: GTIP > HS CODE > Esya Kodu > Malzeme/Hizmet Kodu > SKU
 - If none found → null
 

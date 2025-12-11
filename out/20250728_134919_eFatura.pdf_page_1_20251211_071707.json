@@ -1,0 +1,104 @@
+{
+  "image_path": "/workspace/images/20250728_134919_eFatura.pdf_page_1.jpg",
+  "model": "qwen3-vl:30b-a3b-instruct-q8_0",
+  "processing_time_seconds": 7.44,
+  "timestamp": "2025-12-11T07:17:07.564191",
+  "result": "[{\"invoice_currency\":\"EUR\",\"invoice_customer_address\":\"Cemal Yüksek, ANSEMSSTRAẞE 43, 41334 / NETTETAL, ALMANYA\",\"invoice_customer_country\":\"ALMANYA\",\"invoice_customer_name\":\"Cemal Yüksek\",\"invoice_date\":\"22-07-2025\",\"invoice_delivery_term\":\"EXW\",\"invoice_id\":\"EFA2025000000211\",\"invoice_payment_term\":\"NETTETA L ALMANY A\",\"invoice_po_number\":\"TR1.2\",\"invoice_shipment_country_of_origin\":\"TÜRKİYE\",\"invoice_supplier_address\":\"Gida Krt. Tic. Taah. Ltd. Šti. İvedik Osb Ağaç İşleri Sitesi 1358, sok No:15, Yenimahalle/Ankara\",\"invoice_supplier_country\":\"TÜRKİYE\",\"invoice_supplier_name\":\"Mudesa Mutfak Dekorasyon San. İŞç.\",\"invoice_supplier_vkn\":\"6230048526\",\"invoice_total_amount\":\"93.905,40 TL\",\"invoice_total_package_quantity\":\"49\",\"invoice_total_quantity\":\"90\",\"invoice_total_gross_weight\":\"1700\",\"invoice_total_net_weight\":\"1700\",\"items\":[{\"invoice_item_commodity_code\":\"940340900000\",\"invoice_item_country_of_origin\":\"TÜRKİYE\",\"invoice_item_description\":\"MUTFAK DOLABI (1 TAKIM)\",\"invoice_item_no\":\"1\",\"invoice_item_package_quantity\":\"1\",\"invoice_item_product_id\":\"TAKIM\",\"invoice_item_quantity\":\"1\",\"invoice_item_total_amount\":\"850,00 EUR\",\"invoice_item_unit_price\":\"850,00 EUR\",\"invoice_item_unit_type\":\"Takım\"},{\"invoice_item_commodity_code\":\"940340900000\",\"invoice_item_country_of_origin\":\"TÜRKİYE\",\"invoice_item_description\":\"MUTFAK TEZGAHI\",\"invoice_item_no\":\"2\",\"invoice_item_package_quantity\":\"1\",\"invoice_item_product_id\":\"Adet\",\"invoice_item_quantity\":\"1\",\"invoice_item_total_amount\":\"450,00 EUR\",\"invoice_item_unit_price\":\"450,00 EUR\",\"invoice_item_unit_type\":\"Adet\"},{\"invoice_item_commodity_code\":\"940360100000\",\"invoice_item_country_of_origin\":\"TÜRKİYE\",\"invoice_item_description\":\"YEMEK MASASI TAKIMI\",\"invoice_item_no\":\"3\",\"invoice_item_package_quantity\":\"1\",\"invoice_item_product_id\":\"Takım\",\"invoice_item_quantity\":\"1\",\"invoice_item_total_amount\":\"100,00 EUR\",\"invoice_item_unit_price\":\"100,00 EUR\",\"invoice_item_unit_type\":\"Takım\"},{\"invoice_item_commodity_code\":\"441829800019\",\"invoice_item_country_of_origin\":\"TÜRKİYE\",\"invoice_item_description\":\"KAPI KANADI\",\"invoice_item_no\":\"4\",\"invoice_item_package_quantity\":\"1\",\"invoice_item_product_id\":\"Adet\",\"invoice_item_quantity\":\"1\",\"invoice_item_total_amount\":\"50,00 EUR\",\"invoice_item_unit_price\":\"50,00 EUR\",\"invoice_item_unit_type\":\"Adet\"},{\"invoice_item_commodity_code\":\"940350000019\",\"invoice_item_country_of_origin\":\"TÜRKİYE\",\"invoice_item_description\":\"GARDROP DOLABI\",\"invoice_item_no\":\"5\",\"invoice_item_package_quantity\":\"1\",\"invoice_item_product_id\":\"Adet\",\"invoice_item_quantity\":\"1\",\"invoice_item_total_amount\":\"450,00 EUR\",\"invoice_item_unit_price\":\"450,00 EUR\",\"invoice_item_unit_type\":\"Adet\"},{\"invoice_item_commodity_code\":\"940360901000\",\"invoice_item_country_of_origin\":\"TÜRKİYE\",\"invoice_item_description\":\"BANYO DOLABI\",\"invoice_item_no\":\"6\",\"invoice_item_package_quantity\":\"1\",\"invoice_item_product_id\":\"Adet\",\"invoice_item_quantity\":\"1\",\"invoice_item_total_amount\":\"100,00 EUR\",\"invoice_item_unit_price\":\"100,00 EUR\",\"invoice_item_unit_type\":\"Adet\"}]}]",
+  "result_JSON": [
+    {
+      "invoice_currency": "EUR",
+      "invoice_customer_address": "Cemal Yüksek, ANSEMSSTRAẞE 43, 41334 / NETTETAL, ALMANYA",
+      "invoice_customer_country": "ALMANYA",
+      "invoice_customer_name": "Cemal Yüksek",
+      "invoice_date": "22-07-2025",
+      "invoice_delivery_term": "EXW",
+      "invoice_id": "EFA2025000000211",
+      "invoice_payment_term": "NETTETA L ALMANY A",
+      "invoice_po_number": "TR1.2",
+      "invoice_shipment_country_of_origin": "TÜRKİYE",
+      "invoice_supplier_address": "Gida Krt. Tic. Taah. Ltd. Šti. İvedik Osb Ağaç İşleri Sitesi 1358, sok No:15, Yenimahalle/Ankara",
+      "invoice_supplier_country": "TÜRKİYE",
+      "invoice_supplier_name": "Mudesa Mutfak Dekorasyon San. İŞç.",
+      "invoice_supplier_vkn": "6230048526",
+      "invoice_total_amount": "93.905,40 TL",
+      "invoice_total_package_quantity": "49",
+      "invoice_total_quantity": "90",
+      "invoice_total_gross_weight": "1700",
+      "invoice_total_net_weight": "1700",
+      "items": [
+        {
+          "invoice_item_commodity_code": "940340900000",
+          "invoice_item_country_of_origin": "TÜRKİYE",
+          "invoice_item_description": "MUTFAK DOLABI (1 TAKIM)",
+          "invoice_item_no": "1",
+          "invoice_item_package_quantity": "1",
+          "invoice_item_product_id": "TAKIM",
+          "invoice_item_quantity": "1",
+          "invoice_item_total_amount": "850,00 EUR",
+          "invoice_item_unit_price": "850,00 EUR",
+          "invoice_item_unit_type": "Takım"
+        },
+        {
+          "invoice_item_commodity_code": "940340900000",
+          "invoice_item_country_of_origin": "TÜRKİYE",
+          "invoice_item_description": "MUTFAK TEZGAHI",
+          "invoice_item_no": "2",
+          "invoice_item_package_quantity": "1",
+          "invoice_item_product_id": "Adet",
+          "invoice_item_quantity": "1",
+          "invoice_item_total_amount": "450,00 EUR",
+          "invoice_item_unit_price": "450,00 EUR",
+          "invoice_item_unit_type": "Adet"
+        },
+        {
+          "invoice_item_commodity_code": "940360100000",
+          "invoice_item_country_of_origin": "TÜRKİYE",
+          "invoice_item_description": "YEMEK MASASI TAKIMI",
+          "invoice_item_no": "3",
+          "invoice_item_package_quantity": "1",
+          "invoice_item_product_id": "Takım",
+          "invoice_item_quantity": "1",
+          "invoice_item_total_amount": "100,00 EUR",
+          "invoice_item_unit_price": "100,00 EUR",
+          "invoice_item_unit_type": "Takım"
+        },
+        {
+          "invoice_item_commodity_code": "441829800019",
+          "invoice_item_country_of_origin": "TÜRKİYE",
+          "invoice_item_description": "KAPI KANADI",
+          "invoice_item_no": "4",
+          "invoice_item_package_quantity": "1",
+          "invoice_item_product_id": "Adet",
+          "invoice_item_quantity": "1",
+          "invoice_item_total_amount": "50,00 EUR",
+          "invoice_item_unit_price": "50,00 EUR",
+          "invoice_item_unit_type": "Adet"
+        },
+        {
+          "invoice_item_commodity_code": "940350000019",
+          "invoice_item_country_of_origin": "TÜRKİYE",
+          "invoice_item_description": "GARDROP DOLABI",
+          "invoice_item_no": "5",
+          "invoice_item_package_quantity": "1",
+          "invoice_item_product_id": "Adet",
+          "invoice_item_quantity": "1",
+          "invoice_item_total_amount": "450,00 EUR",
+          "invoice_item_unit_price": "450,00 EUR",
+          "invoice_item_unit_type": "Adet"
+        },
+        {
+          "invoice_item_commodity_code": "940360901000",
+          "invoice_item_country_of_origin": "TÜRKİYE",
+          "invoice_item_description": "BANYO DOLABI",
+          "invoice_item_no": "6",
+          "invoice_item_package_quantity": "1",
+          "invoice_item_product_id": "Adet",
+          "invoice_item_quantity": "1",
+          "invoice_item_total_amount": "100,00 EUR",
+          "invoice_item_unit_price": "100,00 EUR",
+          "invoice_item_unit_type": "Adet"
+        }
+      ]
+    }
+  ]
+}
