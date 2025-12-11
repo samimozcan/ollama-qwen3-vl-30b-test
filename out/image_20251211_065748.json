@@ -1,0 +1,42 @@
+{
+  "image_path": "images/image.png",
+  "model": "qwen3-vl:30b-a3b-instruct-q8_0",
+  "processing_time_seconds": 5.2,
+  "timestamp": "2025-12-11T06:57:48.550407",
+  "result": "```json\n{\n    \"invoice_number\": \"N 0691497\",\n    \"date\": \"31/10/2025\",\n    \"vendor_name\": \"DİKKAÑ DİŞ TİC.A.Ş.\",\n    \"vendor_address\": \"İZMİR-KEMALPAŞA YOLU NO:3035730 HAYİTLIKIR MEVKİ, KEMALPAŞA İZMİR TÜRKİYE\",\n    \"customer_name\": \"VERZAHNUNG & METALLBEARBEITUNG KAISER GMBH\",\n    \"customer_address\": \"PRATZSCHWITZER STR.201 . 01796 PIRNA / P GERMANY\",\n    \"country_of_exportation\": \"TURKEY\",\n    \"country_of_destination\": \"GERMANY\",\n    \"transport_details\": \"KAMYON-BY TRUCK\",\n    \"remarks\": \"SIMPLIFIED PROCEDURE\",\n    \"line_items\": [\n        {\n            \"description\": \"BRONZE HOLLOW BAR\",\n            \"quantity\": 1,\n            \"unit_price\": \"\",\n            \"total\": \"1,170.00 KGS\"\n        }\n    ],\n    \"subtotal\": \"1,170.00 KGS\",\n    \"tax\": \"\",\n    \"total_amount\": \"1,170.00 KGS\",\n    \"payment_terms\": \"\",\n    \"currency\": \"KGS\",\n    \"customs_endorsement\": {\n        \"export_document\": \"EGE GÜMRÜK VE TİCARET BÖLGE MÜDÜRLÜĞÜ\",\n        \"gumruk_idarese\": \"İZMİR GÜMRÜK MÜDÜRLÜĞÜ\",\n        \"gumruk_idarese_form\": \"31/10/2025 - 25350300EX00141026\",\n        \"issuing_country\": \"Türkiye\",\n        \"issuing_office\": \"İZMİR\",\n        \"place_and_date\": \"İZMİR 31/10/2025\",\n        \"signature\": \"Imza (Signature)\"\n    },\n    \"exporter_declaration\": \"I, the undersigned, declare that the goods described above meet the conditions required for the issue of this certificate.\"\n}\n```",
+  "result_JSON": {
+    "invoice_number": "N 0691497",
+    "date": "31/10/2025",
+    "vendor_name": "DİKKAÑ DİŞ TİC.A.Ş.",
+    "vendor_address": "İZMİR-KEMALPAŞA YOLU NO:3035730 HAYİTLIKIR MEVKİ, KEMALPAŞA İZMİR TÜRKİYE",
+    "customer_name": "VERZAHNUNG & METALLBEARBEITUNG KAISER GMBH",
+    "customer_address": "PRATZSCHWITZER STR.201 . 01796 PIRNA / P GERMANY",
+    "country_of_exportation": "TURKEY",
+    "country_of_destination": "GERMANY",
+    "transport_details": "KAMYON-BY TRUCK",
+    "remarks": "SIMPLIFIED PROCEDURE",
+    "line_items": [
+      {
+        "description": "BRONZE HOLLOW BAR",
+        "quantity": 1,
+        "unit_price": "",
+        "total": "1,170.00 KGS"
+      }
+    ],
+    "subtotal": "1,170.00 KGS",
+    "tax": "",
+    "total_amount": "1,170.00 KGS",
+    "payment_terms": "",
+    "currency": "KGS",
+    "customs_endorsement": {
+      "export_document": "EGE GÜMRÜK VE TİCARET BÖLGE MÜDÜRLÜĞÜ",
+      "gumruk_idarese": "İZMİR GÜMRÜK MÜDÜRLÜĞÜ",
+      "gumruk_idarese_form": "31/10/2025 - 25350300EX00141026",
+      "issuing_country": "Türkiye",
+      "issuing_office": "İZMİR",
+      "place_and_date": "İZMİR 31/10/2025",
+      "signature": "Imza (Signature)"
+    },
+    "exporter_declaration": "I, the undersigned, declare that the goods described above meet the conditions required for the issue of this certificate."
+  }
+}

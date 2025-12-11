@@ -1,0 +1,100 @@
+{
+  "image_path": "/workspace/images/20250728_134919_eFatura.pdf_page_1.jpg",
+  "model": "qwen3-vl:30b-a3b-instruct-q8_0",
+  "processing_time_seconds": 8.59,
+  "timestamp": "2025-12-11T07:06:48.302101",
+  "result": "{\"gtip_code\": [\"940340\", \"940340\", \"940360\", \"941829\", \"940350\", \"940360\"], \"invoice_total_amount\": \"93.905,40\", \"tax_amount\": \"2.000,00\", \"invoice_date\": \"22-07-2025\", \"invoice_number\": \"EFA2025000000211\", \"seller_name\": \"Mudesa Mutfak Dekorasyon San. lnc.\", \"buyer_name\": \"Cemal Yüksel\", \"buyer_address\": \"ANSEMSSTRAE 43, 41334 / NETTETAL ALMANYA\", \"buyer_vat_number\": \"62aaf598-3e64-4adb-8908-905dd46b18bc\", \"buyer_tax_number\": \"\", \"seller_address\": \"Gida Krt. Tic. Taah. Ltd. Sti. Ivedik Osb A9ac Isleri Sitesi 1358. sok No:15 Yenimahalle/ Ankara\", \"seller_tax_number\": \"6230048526\", \"seller_vat_number\": \"\", \"seller_phone\": \"03123955666\", \"seller_email\": \"mudesaticaret@gmail.com\", \"payment_terms\": \"EXW\", \"currency\": \"EUR\", \"invoice_items\": [{\"item_number\": \"1\", \"description\": \"MUTFK DOLABI (1 TAKIM)\", \"unit_price\": \"850.00000\", \"quantity\": \"1\", \"amount\": \"850,00\"}, {\"item_number\": \"2\", \"description\": \"MUTFK TEZGAHI\", \"unit_price\": \"450.00000\", \"quantity\": \"1\", \"amount\": \"450,00\"}, {\"item_number\": \"3\", \"description\": \"YEMEK MASASI TAKIMI\", \"unit_price\": \"100.00000\", \"quantity\": \"1\", \"amount\": \"100,00\"}, {\"item_number\": \"4\", \"description\": \"KAPI KANADI\", \"unit_price\": \"50.000000\", \"quantity\": \"1\", \"amount\": \"50,00\"}, {\"item_number\": \"5\", \"description\": \"GARDROP DOLABI\", \"unit_price\": \"450.000000\", \"quantity\": \"1\", \"amount\": \"450,00\"}, {\"item_number\": \"6\", \"description\": \"BANYO DOLABI\", \"unit_price\": \"100.000000\", \"quantity\": \"1\", \"amount\": \"100,00\"}], \"total_amount\": \"2.000,00\", \"tax_rate\": \"0,00\", \"total_tax\": \"2.000,00\", \"total_net_amount\": \"93.905,40\", \"delivery_terms\": \"EXW\", \"delivery_date\": \"22-07-2025\", \"delivery_location\": \"NETTETAL ALMANYA\", \"payment_method\": \"Pay via bank transfer\", \"bank_accounts\": [{\"account_name\": \"Iş Bankası Döviz Türü: TRY Açıklama:\", \"account_number\": \"TR50 0006 4000 0014 2740 0004 48\"}, {\"account_name\": \"Iş Bankası Döviz Türü: USD Açıklama:\", \"account_number\": \"TR33 0006 4000 0024 2740 0398 40\"}, {\"account_name\": \"Iş Bankası Döviz Türü: EUR Açıklama:\", \"account_number\": \"TR02 0006 4000 0024 2740 0273 03\"}], \"notes\": \"Not: 22.07.2025 00:00:00 tarihli döviz kuruna göre 1 EUR : 46,9527 TRY olarak hesaplanmıştır. E-Fatura izni kapsamında elektronik ortamda iletilmiştir. Bu fatura ırsaliye yerine geçer. Ürünler türk menşelidir. Teslim tipi: exworks Ödeme şekli peşin Miktarı 49 kap Ağırlık 1700 KG\"}",
+  "result_JSON": {
+    "gtip_code": [
+      "940340",
+      "940340",
+      "940360",
+      "941829",
+      "940350",
+      "940360"
+    ],
+    "invoice_total_amount": "93.905,40",
+    "tax_amount": "2.000,00",
+    "invoice_date": "22-07-2025",
+    "invoice_number": "EFA2025000000211",
+    "seller_name": "Mudesa Mutfak Dekorasyon San. lnc.",
+    "buyer_name": "Cemal Yüksel",
+    "buyer_address": "ANSEMSSTRAE 43, 41334 / NETTETAL ALMANYA",
+    "buyer_vat_number": "62aaf598-3e64-4adb-8908-905dd46b18bc",
+    "buyer_tax_number": "",
+    "seller_address": "Gida Krt. Tic. Taah. Ltd. Sti. Ivedik Osb A9ac Isleri Sitesi 1358. sok No:15 Yenimahalle/ Ankara",
+    "seller_tax_number": "6230048526",
+    "seller_vat_number": "",
+    "seller_phone": "03123955666",
+    "seller_email": "mudesaticaret@gmail.com",
+    "payment_terms": "EXW",
+    "currency": "EUR",
+    "invoice_items": [
+      {
+        "item_number": "1",
+        "description": "MUTFK DOLABI (1 TAKIM)",
+        "unit_price": "850.00000",
+        "quantity": "1",
+        "amount": "850,00"
+      },
+      {
+        "item_number": "2",
+        "description": "MUTFK TEZGAHI",
+        "unit_price": "450.00000",
+        "quantity": "1",
+        "amount": "450,00"
+      },
+      {
+        "item_number": "3",
+        "description": "YEMEK MASASI TAKIMI",
+        "unit_price": "100.00000",
+        "quantity": "1",
+        "amount": "100,00"
+      },
+      {
+        "item_number": "4",
+        "description": "KAPI KANADI",
+        "unit_price": "50.000000",
+        "quantity": "1",
+        "amount": "50,00"
+      },
+      {
+        "item_number": "5",
+        "description": "GARDROP DOLABI",
+        "unit_price": "450.000000",
+        "quantity": "1",
+        "amount": "450,00"
+      },
+      {
+        "item_number": "6",
+        "description": "BANYO DOLABI",
+        "unit_price": "100.000000",
+        "quantity": "1",
+        "amount": "100,00"
+      }
+    ],
+    "total_amount": "2.000,00",
+    "tax_rate": "0,00",
+    "total_tax": "2.000,00",
+    "total_net_amount": "93.905,40",
+    "delivery_terms": "EXW",
+    "delivery_date": "22-07-2025",
+    "delivery_location": "NETTETAL ALMANYA",
+    "payment_method": "Pay via bank transfer",
+    "bank_accounts": [
+      {
+        "account_name": "Iş Bankası Döviz Türü: TRY Açıklama:",
+        "account_number": "TR50 0006 4000 0014 2740 0004 48"
+      },
+      {
+        "account_name": "Iş Bankası Döviz Türü: USD Açıklama:",
+        "account_number": "TR33 0006 4000 0024 2740 0398 40"
+      },
+      {
+        "account_name": "Iş Bankası Döviz Türü: EUR Açıklama:",
+        "account_number": "TR02 0006 4000 0024 2740 0273 03"
+      }
+    ],
+    "notes": "Not: 22.07.2025 00:00:00 tarihli döviz kuruna göre 1 EUR : 46,9527 TRY olarak hesaplanmıştır. E-Fatura izni kapsamında elektronik ortamda iletilmiştir. Bu fatura ırsaliye yerine geçer. Ürünler türk menşelidir. Teslim tipi: exworks Ödeme şekli peşin Miktarı 49 kap Ağırlık 1700 KG"
+  }
+}

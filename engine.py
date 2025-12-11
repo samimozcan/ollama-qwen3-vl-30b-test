@@ -37,6 +37,25 @@ def query_ollama_vision(prompt, image_path, model=MODEL_NAME):
     except requests.RequestException as e:
         return f"Error: {e}"
 
+import re
+
+def parse_json_from_result(result):
+    """Extract and parse JSON from LLM response, removing ```json``` markers if present."""
+    cleaned = result.strip()
+    
+    # Remove ```json ... ``` or ``` ... ``` code block markers
+    json_block_pattern = r'```(?:json)?\s*([\s\S]*?)\s*```'
+    match = re.search(json_block_pattern, cleaned)
+    
+    if match:
+        cleaned = match.group(1).strip()
+    
+    # Try to parse as JSON
+    try:
+        return json.loads(cleaned)
+    except json.JSONDecodeError as e:
+        return {"parse_error": str(e), "raw_content": cleaned}
+
 def save_output(result, image_path, elapsed_time):
     """Save the output to the out/ folder with timing information."""
     # Create out directory if it doesn't exist
@@ -49,13 +68,17 @@ def save_output(result, image_path, elapsed_time):
     output_filename = f"{image_name}_{timestamp}.json"
     output_path = out_dir / output_filename
     
+    # Parse JSON from result
+    result_json = parse_json_from_result(result)
+    
     # Prepare output data with timing
     output_data = {
         "image_path": str(image_path),
         "model": MODEL_NAME,
         "processing_time_seconds": round(elapsed_time, 2),
         "timestamp": datetime.now().isoformat(),
-        "result": result
+        "result": result,
+        "result_JSON": result_json
     }
     
     # Save to file
@@ -79,9 +102,27 @@ if __name__ == "__main__":
         sys.exit(1)
     
     # Prompt for invoice extraction
-    prompt = """You are a helpful assistant. Extract all fields from the provided invoice image and return them in JSON format.
-Do not add any text except JSON.
-Extract fields such as: invoice number, date, vendor name, vendor address, customer name, customer address, line items (description, quantity, unit price, total), subtotal, tax, total amount, payment terms, etc."""
+    prompt = """Extract invoice data. Output ONLY valid JSON array with one object:
+
+[{"invoice_currency":"str|null","invoice_customer_address":"str|null","invoice_customer_country":"str|null","invoice_customer_name":"str|null","invoice_date":"str|null","invoice_delivery_term":"str|null","invoice_id":"str|null","invoice_payment_term":"str|null","invoice_po_number":"str|null","invoice_shipment_country_of_origin":"str|null","invoice_supplier_address":"str|null","invoice_supplier_country":"str|null","invoice_supplier_name":"str|null","invoice_supplier_vkn":"str|null","invoice_total_amount":"str|null","invoice_total_package_quantity":"str|null","invoice_total_quantity":"str|null","invoice_total_gross_weight":"str|null","invoice_total_net_weight":"str|null","items":[{"invoice_item_commodity_code":"str|null","invoice_item_country_of_origin":"str|null","invoice_item_description":"str|null","invoice_item_no":"str|null","invoice_item_package_quantity":"str|null","invoice_item_product_id":"str|null","invoice_item_quantity":"str|null","invoice_item_total_amount":"str|null","invoice_item_unit_price":"str|null","invoice_item_unit_type":"str|null"}]}]
+
+RULES:
+- Output RAW JSON only, no markdown/explanations
+- Use null for missing fields (never "N/A", "", "-")
+- Preserve original number formats (e.g., 4.013.082,09)
+- invoice_currency: primary transaction currency (EUR if items in EUR)
+- invoice_total_amount: include currency (e.g., "4.013.082,09 TL")
+- Countries as source (ALMANYA, TÜRKİYE)
+- Weights: numeric kg string, no unit (e.g., "19050")
+
+COMMODITY CODE (invoice_item_commodity_code):
+- Labels: Esya Kodu, Gtip Kodu, GTIP, HS CODE, HS Kodu, Malzeme/Hizmet Kodu, Ürün Kodu
+- Priority: GTIP > HS CODE > Esya Kodu > Malzeme/Hizmet Kodu > SKU
+- If none found → null
+
+COUNTRY OF ORIGIN:
+- If "Eşyalar Türk menşeilidir" → all items "TÜRKİYE"
+- Otherwise check per-item Ürün Menşei/Country of Origin"""
 
     print(f"Processing image: {image_path}")
     print(f"Using model: {MODEL_NAME}")

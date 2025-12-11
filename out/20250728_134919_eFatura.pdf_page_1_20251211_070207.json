@@ -1,0 +1,123 @@
+{
+  "image_path": "/workspace/images/20250728_134919_eFatura.pdf_page_1.jpg",
+  "model": "qwen3-vl:30b-a3b-instruct-q8_0",
+  "processing_time_seconds": 9.71,
+  "timestamp": "2025-12-11T07:02:07.544788",
+  "result": "{\"invoice_number\": \"EFA2025000000211\", \"invoice_date\": \"22-07-2025\", \"invoice_issue_date\": \"22-07-2025\", \"invoice_due_date\": \"22-07-2025\", \"seller\": \"Mudesa Mutfak Dekorasyon San. lnc.\", \"seller_address\": \"Gida Krt. Tic. Taah. Ltd. Sti. Ivedik Osb Agac isleri Sitesi 1358. sok No:15 Yenimahalle/ Ankara\", \"seller_tax_number\": \"6230048526\", \"seller_contact\": \"03123955666\", \"seller_email\": \"mudesaticaret@gmail.com\", \"seller_website\": \"www.mudesalife.com\", \"buyer\": \"Cemal Yukek\", \"buyer_address\": \"ANSEMSSTRABE 43, 41334 / NETTETAL ALMANYA\", \"buyer_tax_number\": \"62aaf598-3e64-4adb-8908-905dd46b18bc\", \"currency\": \"TRY\", \"discount\": \"0,00 EUR\", \"tax_rate\": \"20,00\", \"tax_amount\": \"0,00 EUR\", \"total_amount\": \"93.905,40 TL\", \"bank_accounts\": [{\"bank_name\": \"Is Bankasi\", \"account_number\": \"TR50 0006 4000 0014 2740 0004 48\", \"account_type\": \"Doviz Turu: TRY Aciklama:\", \"currency\": \"TRY\"}, {\"bank_name\": \"Is Bankasi\", \"account_number\": \"TR33 0006 4000 0024 2740 0398 40\", \"account_type\": \"Doviz Turu: USD Aciklama:\", \"currency\": \"USD\"}, {\"bank_name\": \"Is Bankasi\", \"account_number\": \"TR02 0006 4000 0024 2740 0273 03\", \"account_type\": \"Doviz Turu: EUR Aciklama:\", \"currency\": \"EUR\"}], \"lines\": [{\"item_number\": \"1\", \"description\": \"MUTFAK DOLABI (1 TAKIM)\", \"quantity\": \"1\", \"unit_price\": \"850,00000\", \"amount\": \"850,00\", \"discount\": \"\", \"tax_rate\": \"EXW\", \"tax_amount\": \"\", \"total\": \"850,00\"}, {\"item_number\": \"2\", \"description\": \"MUTFAK TEZGAHI\", \"quantity\": \"1\", \"unit_price\": \"450,00000\", \"amount\": \"450,00\", \"discount\": \"\", \"tax_rate\": \"EXW\", \"tax_amount\": \"\", \"total\": \"450,00\"}, {\"item_number\": \"3\", \"description\": \"YEMEK MASASI TAKIMI\", \"quantity\": \"1\", \"unit_price\": \"100,00000\", \"amount\": \"100,00\", \"discount\": \"\", \"tax_rate\": \"EXW\", \"tax_amount\": \"\", \"total\": \"100,00\"}, {\"item_number\": \"4\", \"description\": \"KAPI KANADI\", \"quantity\": \"1\", \"unit_price\": \"50,000000\", \"amount\": \"50,00\", \"discount\": \"\", \"tax_rate\": \"EXW\", \"tax_amount\": \"\", \"total\": \"50,00\"}, {\"item_number\": \"5\", \"description\": \"GARDROP DOLABI\", \"quantity\": \"1\", \"unit_price\": \"450,00000\", \"amount\": \"450,00\", \"discount\": \"\", \"tax_rate\": \"EXW\", \"tax_amount\": \"\", \"total\": \"450,00\"}, {\"item_number\": \"6\", \"description\": \"BANYO DOLABI\", \"quantity\": \"1\", \"unit_price\": \"100,00000\", \"amount\": \"100,00\", \"discount\": \"\", \"tax_rate\": \"EXW\", \"tax_amount\": \"\", \"total\": \"100,00\"}], \"notes\": \"Not: 22.07.2025 00:00:00 tarihli doviz kuruna gore 1 EUR : 46,9527 TRY olarak hesaplanmstir.\", \"document_type\": \"e-FATURA\", \"document_type_code\": \"TR1.2\", \"document_subtype\": \"IHRACAT\", \"fatura_type\": \"ISTISNA\", \"payment_terms\": \"exworks Ödeme sekli peşin Miktarı 49 kap Agrilik 1700 KG\", \"shipping_terms\": \"exworks\", \"additional_notes\": \"Vergi Istisna Muafiyet Sebebi: 301 - 301-Mal ihracat\\nYalniz IkiBinEuro.\"}",
+  "result_JSON": {
+    "invoice_number": "EFA2025000000211",
+    "invoice_date": "22-07-2025",
+    "invoice_issue_date": "22-07-2025",
+    "invoice_due_date": "22-07-2025",
+    "seller": "Mudesa Mutfak Dekorasyon San. lnc.",
+    "seller_address": "Gida Krt. Tic. Taah. Ltd. Sti. Ivedik Osb Agac isleri Sitesi 1358. sok No:15 Yenimahalle/ Ankara",
+    "seller_tax_number": "6230048526",
+    "seller_contact": "03123955666",
+    "seller_email": "mudesaticaret@gmail.com",
+    "seller_website": "www.mudesalife.com",
+    "buyer": "Cemal Yukek",
+    "buyer_address": "ANSEMSSTRABE 43, 41334 / NETTETAL ALMANYA",
+    "buyer_tax_number": "62aaf598-3e64-4adb-8908-905dd46b18bc",
+    "currency": "TRY",
+    "discount": "0,00 EUR",
+    "tax_rate": "20,00",
+    "tax_amount": "0,00 EUR",
+    "total_amount": "93.905,40 TL",
+    "bank_accounts": [
+      {
+        "bank_name": "Is Bankasi",
+        "account_number": "TR50 0006 4000 0014 2740 0004 48",
+        "account_type": "Doviz Turu: TRY Aciklama:",
+        "currency": "TRY"
+      },
+      {
+        "bank_name": "Is Bankasi",
+        "account_number": "TR33 0006 4000 0024 2740 0398 40",
+        "account_type": "Doviz Turu: USD Aciklama:",
+        "currency": "USD"
+      },
+      {
+        "bank_name": "Is Bankasi",
+        "account_number": "TR02 0006 4000 0024 2740 0273 03",
+        "account_type": "Doviz Turu: EUR Aciklama:",
+        "currency": "EUR"
+      }
+    ],
+    "lines": [
+      {
+        "item_number": "1",
+        "description": "MUTFAK DOLABI (1 TAKIM)",
+        "quantity": "1",
+        "unit_price": "850,00000",
+        "amount": "850,00",
+        "discount": "",
+        "tax_rate": "EXW",
+        "tax_amount": "",
+        "total": "850,00"
+      },
+      {
+        "item_number": "2",
+        "description": "MUTFAK TEZGAHI",
+        "quantity": "1",
+        "unit_price": "450,00000",
+        "amount": "450,00",
+        "discount": "",
+        "tax_rate": "EXW",
+        "tax_amount": "",
+        "total": "450,00"
+      },
+      {
+        "item_number": "3",
+        "description": "YEMEK MASASI TAKIMI",
+        "quantity": "1",
+        "unit_price": "100,00000",
+        "amount": "100,00",
+        "discount": "",
+        "tax_rate": "EXW",
+        "tax_amount": "",
+        "total": "100,00"
+      },
+      {
+        "item_number": "4",
+        "description": "KAPI KANADI",
+        "quantity": "1",
+        "unit_price": "50,000000",
+        "amount": "50,00",
+        "discount": "",
+        "tax_rate": "EXW",
+        "tax_amount": "",
+        "total": "50,00"
+      },
+      {
+        "item_number": "5",
+        "description": "GARDROP DOLABI",
+        "quantity": "1",
+        "unit_price": "450,00000",
+        "amount": "450,00",
+        "discount": "",
+        "tax_rate": "EXW",
+        "tax_amount": "",
+        "total": "450,00"
+      },
+      {
+        "item_number": "6",
+        "description": "BANYO DOLABI",
+        "quantity": "1",
+        "unit_price": "100,00000",
+        "amount": "100,00",
+        "discount": "",
+        "tax_rate": "EXW",
+        "tax_amount": "",
+        "total": "100,00"
+      }
+    ],
+    "notes": "Not: 22.07.2025 00:00:00 tarihli doviz kuruna gore 1 EUR : 46,9527 TRY olarak hesaplanmstir.",
+    "document_type": "e-FATURA",
+    "document_type_code": "TR1.2",
+    "document_subtype": "IHRACAT",
+    "fatura_type": "ISTISNA",
+    "payment_terms": "exworks Ödeme sekli peşin Miktarı 49 kap Agrilik 1700 KG",
+    "shipping_terms": "exworks",
+    "additional_notes": "Vergi Istisna Muafiyet Sebebi: 301 - 301-Mal ihracat\nYalniz IkiBinEuro."
+  }
+}

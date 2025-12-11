@@ -1,0 +1,141 @@
+{
+  "image_path": "/workspace/images/20250728_134919_eFatura.pdf_page_1.jpg",
+  "model": "qwen3-vl:30b-a3b-instruct-q8_0",
+  "processing_time_seconds": 14.26,
+  "timestamp": "2025-12-11T07:08:44.841127",
+  "result": "{\"Invoice No\": \"EFA2025000000211\", \"Issue Date\": \"22-07-2025\", \"Due Date\": \"22-07-2025\", \"Issue Time\": \"15:58:20\", \"Delivery Time\": \"000000+03:00\", \"Currency\": \"TL\", \"VAT Rate\": \"46.9527\", \"Seller\": {\"Name\": \"Mudesa Mutfak Dekorasyon San. \\u0130\\u015f.\", \"Address\": \"Gida Krt. Tlc. Taah. Ltd. \\u015etl. \\nIvedik Osb A\\u011fa\\u00e7 \\u015eirketi 1358.\", \"City\": \"Istanbul\", \"Postcode\": \"15\", \"Country\": \"Turkey\", \"Phone\": \"03123955666\", \"Website\": \"www.mudesa.com\", \"Email\": \"mudesaticaret@gmail.com\", \"TaxNumber\": \"6230048526\", \"BankAccounts\": [{\"BankName\": \"I? Bankasi\", \"AccountNumber\": \"TR50 0006 4000 0014 2740 0004 48\", \"AccountType\": \"TRY A\\u00e7iklama:\", \"IBAN\": \"TR50 0006 4000 0014 2740 0004 48\"}, {\"BankName\": \"I? Bankasi\", \"AccountNumber\": \"TR33 0006 4000 0024 2740 0398 40\", \"AccountType\": \"USD A\\u00e7iklama:\", \"IBAN\": \"TR33 0006 4000 0024 2740 0398 40\"}, {\"BankName\": \"I? Bankasi\", \"AccountNumber\": \"TR02 0006 4000 0024 2740 0273 03\", \"AccountType\": \"EUR A\\u00e7iklama:\", \"IBAN\": \"TR02 0006 4000 0024 2740 0273 03\"}]}, \"Buyer\": {\"Name\": \"Cemal Y\\u00fcksek\", \"Address\": \"ANSEMSSTRA\\u015eE 43, 41334\\n/ NETTETAL\", \"City\": \"Almanya\", \"Postcode\": \"\", \"Country\": \"Almanya\", \"Phone\": \"\", \"Email\": \"\", \"TaxNumber\": \"\"}, \"Items\": [{\"No\": \"1\", \"Description\": \"MUTFK\\nDOLABI (1\\nTAKIM)\", \"Quantity\": \"1\", \"UnitPrice\": \"850.000000\", \"Price\": \"850,00\", \"Currency\": \"EUR\", \"Total\": \"850,00\"}, {\"No\": \"2\", \"Description\": \"MUTFK\\nTEZGAHI\", \"Quantity\": \"1\", \"UnitPrice\": \"450.000000\", \"Price\": \"450,00\", \"Currency\": \"EUR\", \"Total\": \"450,00\"}, {\"No\": \"3\", \"Description\": \"YEMEK MASASI\\nTAKIMI\", \"Quantity\": \"1\", \"UnitPrice\": \"100.000000\", \"Price\": \"100,00\", \"Currency\": \"EUR\", \"Total\": \"100,00\"}, {\"No\": \"4\", \"Description\": \"KAPI KANADI\", \"Quantity\": \"1\", \"UnitPrice\": \"50.000000\", \"Price\": \"50,00\", \"Currency\": \"EUR\", \"Total\": \"50,00\"}, {\"No\": \"5\", \"Description\": \"GARDROP\\nDOLABI\", \"Quantity\": \"1\", \"UnitPrice\": \"450.000000\", \"Price\": \"450,00\", \"Currency\": \"EUR\", \"Total\": \"450,00\"}, {\"No\": \"6\", \"Description\": \"BANYO DOLABI\", \"Quantity\": \"1\", \"UnitPrice\": \"100.000000\", \"Price\": \"100,00\", \"Currency\": \"EUR\", \"Total\": \"100,00\"}], \"Summary\": {\"Subtotal\": \"2.000,00\", \"VAT\": \"0,00\", \"Total\": \"2.000,00\", \"TotalDue\": \"93.905,40\", \"TotalPaid\": \"93.905,40\", \"Currency\": \"EUR\"}, \"Delivery\": {\"Place\": \"NETTETAL\\nALMANYA\", \"Date\": \"22-07-2025\", \"Time\": \"15:58:20\"}, \"Payment\": {\"Bank\": \"I? Bankasi\", \"Account\": \"D\\\"v\\\"z T\\\"r\\\"\", \"Type\": \"TRY A\\u00e7iklama:\", \"IBAN\": \"TR50 0006 4000 0014 2740 0004 48\"}, \"Additional\": {\"Notes\": [\"E-Fatura izni kapsaminda elektronik ortamda iletilmistir. Bu fatura ırsaliye yerine geer.\", \"\\u00dcr\\u00fcnler t\\\"rk menge\\u011flidir. Teslim tipi: exworks \\u00d6deme \\u015eekli pe\\ufb05in Miktari 49 kap A\\u011fr\\u0131k 1700 KG\", \"Not: 22.07.2025 00:00:00 tarihli d\\\"v\\\"z kuruna g\\u00f6re 1 EUR : 46,9527 TRY olarak hesaplanm\\u0131\\u015ft\\u0131r.\"], \"Terms\": \"exworks \\u00d6deme \\u015eekli pe\\ufb05in Miktari 49 kap A\\u011fr\\u0131k 1700 KG\", \"VATNumber\": \"\"}}",
+  "result_JSON": {
+    "Invoice No": "EFA2025000000211",
+    "Issue Date": "22-07-2025",
+    "Due Date": "22-07-2025",
+    "Issue Time": "15:58:20",
+    "Delivery Time": "000000+03:00",
+    "Currency": "TL",
+    "VAT Rate": "46.9527",
+    "Seller": {
+      "Name": "Mudesa Mutfak Dekorasyon San. İş.",
+      "Address": "Gida Krt. Tlc. Taah. Ltd. Ştl. \nIvedik Osb Ağaç Şirketi 1358.",
+      "City": "Istanbul",
+      "Postcode": "15",
+      "Country": "Turkey",
+      "Phone": "03123955666",
+      "Website": "www.mudesa.com",
+      "Email": "mudesaticaret@gmail.com",
+      "TaxNumber": "6230048526",
+      "BankAccounts": [
+        {
+          "BankName": "I? Bankasi",
+          "AccountNumber": "TR50 0006 4000 0014 2740 0004 48",
+          "AccountType": "TRY Açiklama:",
+          "IBAN": "TR50 0006 4000 0014 2740 0004 48"
+        },
+        {
+          "BankName": "I? Bankasi",
+          "AccountNumber": "TR33 0006 4000 0024 2740 0398 40",
+          "AccountType": "USD Açiklama:",
+          "IBAN": "TR33 0006 4000 0024 2740 0398 40"
+        },
+        {
+          "BankName": "I? Bankasi",
+          "AccountNumber": "TR02 0006 4000 0024 2740 0273 03",
+          "AccountType": "EUR Açiklama:",
+          "IBAN": "TR02 0006 4000 0024 2740 0273 03"
+        }
+      ]
+    },
+    "Buyer": {
+      "Name": "Cemal Yüksek",
+      "Address": "ANSEMSSTRAŞE 43, 41334\n/ NETTETAL",
+      "City": "Almanya",
+      "Postcode": "",
+      "Country": "Almanya",
+      "Phone": "",
+      "Email": "",
+      "TaxNumber": ""
+    },
+    "Items": [
+      {
+        "No": "1",
+        "Description": "MUTFK\nDOLABI (1\nTAKIM)",
+        "Quantity": "1",
+        "UnitPrice": "850.000000",
+        "Price": "850,00",
+        "Currency": "EUR",
+        "Total": "850,00"
+      },
+      {
+        "No": "2",
+        "Description": "MUTFK\nTEZGAHI",
+        "Quantity": "1",
+        "UnitPrice": "450.000000",
+        "Price": "450,00",
+        "Currency": "EUR",
+        "Total": "450,00"
+      },
+      {
+        "No": "3",
+        "Description": "YEMEK MASASI\nTAKIMI",
+        "Quantity": "1",
+        "UnitPrice": "100.000000",
+        "Price": "100,00",
+        "Currency": "EUR",
+        "Total": "100,00"
+      },
+      {
+        "No": "4",
+        "Description": "KAPI KANADI",
+        "Quantity": "1",
+        "UnitPrice": "50.000000",
+        "Price": "50,00",
+        "Currency": "EUR",
+        "Total": "50,00"
+      },
+      {
+        "No": "5",
+        "Description": "GARDROP\nDOLABI",
+        "Quantity": "1",
+        "UnitPrice": "450.000000",
+        "Price": "450,00",
+        "Currency": "EUR",
+        "Total": "450,00"
+      },
+      {
+        "No": "6",
+        "Description": "BANYO DOLABI",
+        "Quantity": "1",
+        "UnitPrice": "100.000000",
+        "Price": "100,00",
+        "Currency": "EUR",
+        "Total": "100,00"
+      }
+    ],
+    "Summary": {
+      "Subtotal": "2.000,00",
+      "VAT": "0,00",
+      "Total": "2.000,00",
+      "TotalDue": "93.905,40",
+      "TotalPaid": "93.905,40",
+      "Currency": "EUR"
+    },
+    "Delivery": {
+      "Place": "NETTETAL\nALMANYA",
+      "Date": "22-07-2025",
+      "Time": "15:58:20"
+    },
+    "Payment": {
+      "Bank": "I? Bankasi",
+      "Account": "D\"v\"z T\"r\"",
+      "Type": "TRY Açiklama:",
+      "IBAN": "TR50 0006 4000 0014 2740 0004 48"
+    },
+    "Additional": {
+      "Notes": [
+        "E-Fatura izni kapsaminda elektronik ortamda iletilmistir. Bu fatura ırsaliye yerine geer.",
+        "Ürünler t\"rk mengeğlidir. Teslim tipi: exworks Ödeme Şekli peﬅin Miktari 49 kap Ağrık 1700 KG",
+        "Not: 22.07.2025 00:00:00 tarihli d\"v\"z kuruna göre 1 EUR : 46,9527 TRY olarak hesaplanmıştır."
+      ],
+      "Terms": "exworks Ödeme Şekli peﬅin Miktari 49 kap Ağrık 1700 KG",
+      "VATNumber": ""
+    }
+  }
+}

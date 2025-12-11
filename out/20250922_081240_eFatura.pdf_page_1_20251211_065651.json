@@ -1,0 +1,111 @@
+{
+  "image_path": "20250922_081240_eFatura.pdf_page_1.jpg",
+  "model": "qwen3-vl:30b-a3b-instruct-q8_0",
+  "processing_time_seconds": 10.58,
+  "timestamp": "2025-12-11T06:56:51.125990",
+  "result": "```json\n{\n    \"invoice_number\": \"API2025000001046\",\n    \"invoice_date\": \"18-09-2025\",\n    \"vendor\": {\n        \"name\": \"ANGST PFISTER GELISMIS TEKNIK COZUMLER A.S.\",\n        \"address\": \"HASANCA OSMAN MAH. 15. CADDE No:9 16280 NILUFER/BURSA TURKIYE TR\",\n        \"contact\": {\n            \"phone\": \"224806900\",\n            \"fax\": \"224842596\",\n            \"web\": \"www.ets.angst-pfister.com\",\n            \"email\": \"ats@angst-pfister.com\"\n        },\n        \"tax_office\": \"CEKIRGE\",\n        \"vat_number\": \"6080551890\",\n        \"mernis_no\": \"0608055189000013\",\n        \"ticaretsicil_no\": \"52462\"\n    },\n    \"customer\": {\n        \"name\": \"JOM GmbH\",\n        \"address\": \"Kriegsbergstr. 17 Ortsteil Hohenacker 71336 Waiblingen/Waiblingen GERMANY DE\",\n        \"contact\": {\n            \"email\": \"m.walter@joern-gmbh.de\",\n            \"phone\": \"+49 7151 3686 26\"\n        },\n        \"party_type\": \"EXPORT\",\n        \"vkn\": \"2222222222\"\n    },\n    \"reference\": {\n        \"ettn\": \"1643F7B6-65B3-4088-9A34-3951FE4A693E\"\n    },\n    \"tax\": {\n        \"type\": \"ISTISNA\",\n        \"exchange_rate\": 48.8181,\n        \"exchange_rate_date\": \"2025-09-18\"\n    },\n    \"payment\": {\n        \"terms\": \"Mal Mukabil (Cash Against Goods)\",\n        \"payment_date\": \"2025-10-18\",\n        \"bank_info\": {\n            \"name\": \"NEGOTIATION BANK\",\n            \"branch\": \"HALKBANK ULUDAĞ TİCARİ ŞUBESİ BURSA BRANCH / TURKEY\",\n            \"swift\": \"TRHBTR2AXXX\",\n            \"iban\": \"TR43 0001 2009 6280 002P 0003 12\"\n        }\n    },\n    \"delivery\": {\n        \"address\": \"Jom GmbH Kriegsbergstr. 17 Ortsteil Hohenacker Waiblingen 71336 GERMANY\",\n        \"condition\": \"3065 Sayik KDV Kanunun 11.md. gereğince ihrac edildiğinden KDV'den Muafdir. 0(Sfr) KDV Uygulanmstr.\",\n        \"shipment_type\": \"Karayolu\",\n        \"disposition_type\": \"DAP\"\n    },\n    \"items\": [\n        {\n            \"no\": 1,\n            \"gtip_code\": \"401699520000\",\n            \"description\": \"MUHTELEF BURC ( Antivibration Bush )\",\n            \"aptr_code\": \"LMB-1015-01\",\n            \"part_no\": \"C 75 7000 001 APF\",\n            \"order_no\": \"201310\",\n            \"quantity\": 4860,\n            \"unit_price\": 32200,\n            \"amount\": 1564920,\n            \"currency\": \"EUR\"\n        },\n        {\n            \"no\": 2,\n            \"gtip_code\": \"401699520000\",\n            \"description\": \"MUHTELEF BURC ( Antivibration Bush )\",\n            \"aptr_code\": \"LMB-1016-01\",\n            \"part_no\": \"C 75 7004 001 APF\",\n            \"order_no\": \"201311\",\n            \"quantity\": 3510,\n            \"unit_price\": 29000,\n            \"amount\": 1049490,\n            \"currency\": \"EUR\"\n        },\n        {\n            \"no\": 3,\n            \"gtip_code\": \"401699520000\",\n            \"description\": \"MUHTELEF BURC ( Antivibration Bush )\",\n            \"aptr_code\": \"LMB-1017-00\",\n            \"part_no\": \"C 77 6031 001 APF\",\n            \"order_no\": \"201309\",\n            \"quantity\": 11220,\n            \"unit_price\": 38000,\n            \"amount\": 3792360,\n            \"currency\": \"EUR\"\n        }\n    ],\n    \"totals\": {\n        \"total_amount\": 64067.70,\n        \"currency\": \"EUR\",\n        \"total_quantity\": 19590,\n        \"gross_weight\": 14275,\n        \"net_weight\": 13777,\n        \"total_pallets\": 18,\n        \"freight\": 62067,\n        \"currency\": \"EUR\"\n    },\n    \"additional_info\": {\n        \"vendor_code\": \"L1301811\",\n        \"delivery_terms\": \"11/1-a Mal Ihracati\",\n        \"shipment_method\": \"DAP\"\n    }\n}\n```",
+  "result_JSON": {
+    "invoice_number": "API2025000001046",
+    "invoice_date": "18-09-2025",
+    "vendor": {
+      "name": "ANGST PFISTER GELISMIS TEKNIK COZUMLER A.S.",
+      "address": "HASANCA OSMAN MAH. 15. CADDE No:9 16280 NILUFER/BURSA TURKIYE TR",
+      "contact": {
+        "phone": "224806900",
+        "fax": "224842596",
+        "web": "www.ets.angst-pfister.com",
+        "email": "ats@angst-pfister.com"
+      },
+      "tax_office": "CEKIRGE",
+      "vat_number": "6080551890",
+      "mernis_no": "0608055189000013",
+      "ticaretsicil_no": "52462"
+    },
+    "customer": {
+      "name": "JOM GmbH",
+      "address": "Kriegsbergstr. 17 Ortsteil Hohenacker 71336 Waiblingen/Waiblingen GERMANY DE",
+      "contact": {
+        "email": "m.walter@joern-gmbh.de",
+        "phone": "+49 7151 3686 26"
+      },
+      "party_type": "EXPORT",
+      "vkn": "2222222222"
+    },
+    "reference": {
+      "ettn": "1643F7B6-65B3-4088-9A34-3951FE4A693E"
+    },
+    "tax": {
+      "type": "ISTISNA",
+      "exchange_rate": 48.8181,
+      "exchange_rate_date": "2025-09-18"
+    },
+    "payment": {
+      "terms": "Mal Mukabil (Cash Against Goods)",
+      "payment_date": "2025-10-18",
+      "bank_info": {
+        "name": "NEGOTIATION BANK",
+        "branch": "HALKBANK ULUDAĞ TİCARİ ŞUBESİ BURSA BRANCH / TURKEY",
+        "swift": "TRHBTR2AXXX",
+        "iban": "TR43 0001 2009 6280 002P 0003 12"
+      }
+    },
+    "delivery": {
+      "address": "Jom GmbH Kriegsbergstr. 17 Ortsteil Hohenacker Waiblingen 71336 GERMANY",
+      "condition": "3065 Sayik KDV Kanunun 11.md. gereğince ihrac edildiğinden KDV'den Muafdir. 0(Sfr) KDV Uygulanmstr.",
+      "shipment_type": "Karayolu",
+      "disposition_type": "DAP"
+    },
+    "items": [
+      {
+        "no": 1,
+        "gtip_code": "401699520000",
+        "description": "MUHTELEF BURC ( Antivibration Bush )",
+        "aptr_code": "LMB-1015-01",
+        "part_no": "C 75 7000 001 APF",
+        "order_no": "201310",
+        "quantity": 4860,
+        "unit_price": 32200,
+        "amount": 1564920,
+        "currency": "EUR"
+      },
+      {
+        "no": 2,
+        "gtip_code": "401699520000",
+        "description": "MUHTELEF BURC ( Antivibration Bush )",
+        "aptr_code": "LMB-1016-01",
+        "part_no": "C 75 7004 001 APF",
+        "order_no": "201311",
+        "quantity": 3510,
+        "unit_price": 29000,
+        "amount": 1049490,
+        "currency": "EUR"
+      },
+      {
+        "no": 3,
+        "gtip_code": "401699520000",
+        "description": "MUHTELEF BURC ( Antivibration Bush )",
+        "aptr_code": "LMB-1017-00",
+        "part_no": "C 77 6031 001 APF",
+        "order_no": "201309",
+        "quantity": 11220,
+        "unit_price": 38000,
+        "amount": 3792360,
+        "currency": "EUR"
+      }
+    ],
+    "totals": {
+      "total_amount": 64067.7,
+      "currency": "EUR",
+      "total_quantity": 19590,
+      "gross_weight": 14275,
+      "net_weight": 13777,
+      "total_pallets": 18,
+      "freight": 62067
+    },
+    "additional_info": {
+      "vendor_code": "L1301811",
+      "delivery_terms": "11/1-a Mal Ihracati",
+      "shipment_method": "DAP"
+    }
+  }
+}
